@@ -88,6 +88,8 @@ auto result = outer(a.begin(), a.end(), b.begin(), b.end());
 
 Implementar el problema #1 pero en su versión concurrente, evitando los race conditions.
 
+NOTA: No utilizar las funciones de la libreria `<execution>` solo esta permitido usar `<thread>` o `<future>`.
+
 ## Question #3 - `Complejidad Algoritmica` (6 points)
 
 Calcular la función de coste de tiempo y Big O de `complex_function`:
